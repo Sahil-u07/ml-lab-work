@@ -3,16 +3,20 @@
 Sahil Lenka, Reg. No. 2427010391, Section C
 B.Tech CSE (AIML), Manipal University Jaipur
 
-| Lab | Topic |
-|-----|-------|
-| 1 | Logistic regression with SGD |
-| 2 | Feature scaling and normalization |
-| 3 | Exploratory data analysis |
-| 4 | Linear regression |
-| 5 | Logistic regression and ROC |
-| 6 | Naive Bayes classification |
-| 7 | Decision trees and random forests |
-| 8 | K-Means and DBSCAN clustering |
+| Lab | Topic | Data |
+|-----|-------|------|
+| 1 | Logistic regression with SGD | Kaggle `yasserh/titanic-dataset` |
+| 2 | Feature scaling and normalization | Kaggle `yasserh/titanic-dataset` |
+| 3 | Exploratory data analysis | Kaggle `uciml/iris` |
+| 4 | Linear regression | Kaggle `yasserh/housing-prices-dataset` |
+| 5 | Logistic regression and ROC | scikit-learn breast cancer |
+| 6 | Naive Bayes classification | `healthcare-dataset-stroke-data.csv` |
+| 7 | Decision trees and random forests | stroke CSV, `Concrete_Data.xls` (UCI) |
+| 8 | K-Means and DBSCAN clustering | stroke CSV |
 
-Each folder has the lab record PDF. Labs 6 to 8 also have the Python source.
-Labs 6 to 8 read `healthcare-dataset-stroke-data.csv` (Kaggle stroke prediction) and, for Lab 7, `Concrete_Data.xls` (UCI concrete strength) from the working directory. Datasets are not included.
+Each folder has `experimentN.py`. Labs 1 to 4 download their data with `kagglehub`. Labs 6 to 8 read the CSV/XLS from the working directory; the files are not included.
+
+```
+pip install numpy pandas matplotlib seaborn scikit-learn kagglehub xlrd
+python Lab1/experiment1.py
+```
