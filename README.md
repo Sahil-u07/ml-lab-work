@@ -17,6 +17,6 @@ B.Tech CSE (AIML), Manipal University Jaipur
 Each folder has `experimentN.py`. Labs 1 to 4 download their data with `kagglehub`. Labs 6 to 8 read the CSV/XLS from the working directory; the files are not included.
 
 ```
-pip install numpy pandas matplotlib seaborn scikit-learn kagglehub xlrd
+pip install numpy pandas matplotlib scikit-learn kagglehub xlrd
 python Lab1/experiment1.py
 ```
